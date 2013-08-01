@@ -1,0 +1,112 @@
+/* HEADERS
+---------------------------------------------------------------------------------------------------- */
+h1 {font-size: 40px;}
+h2 {font-size: 35px;}
+h3 {font-size: 30px;}
+h4 {font-size: 25px;}
+h5 {font-size: 20px;}
+h6 {font-size: 15px;}
+
+/* BOTTOM INDENT
+---------------------------------------------------------------------------------------------------- */
+.m-b_2  {margin-bottom:  20px !important;}
+.m-b_4  {margin-bottom:  40px !important;}
+.m-b_6  {margin-bottom:  60px !important;}
+.m-b_8  {margin-bottom:  80px !important;}
+.m-b_10 {margin-bottom: 100px !important;}
+
+/* CONTENT STYLES
+---------------------------------------------------------------------------------------------------- */
+.cnt {font-size: 13px;}
+
+.cnt > blockquote,
+.cnt > code,
+.cnt > dl,
+.cnt > ol,
+.cnt > ul,
+.cnt > img,
+.cnt > p,
+.cnt > table {margin-bottom: 30px;}
+
+/* Blockquote */
+.cnt > blockquote {
+  padding: 30px;
+  font-size: 17.5px;
+}
+
+/* Code */
+.cnt code {font-size: 17.5px;}
+
+/* Lists */
+.cnt > dl dt {margin-bottom: 15px;}
+.cnt > dl dd {margin-left: 45px;}
+
+.cnt > ol li,
+.cnt > ul li {margin: 0 0 15px 45px;}
+
+.cnt > ol li ol,
+.cnt > ul li ul {margin-top: 15px;}
+
+/* Headers */
+.cnt > h1,
+.cnt > h2,
+.cnt > h3,
+.cnt > h4,
+.cnt > h5,
+.cnt > h6 {margin-bottom: 15px;}
+
+/* Small */
+.cnt small {font-size: 10px;}
+
+/* Sup, sub */
+.cnt sub,
+.cnt sup {font-size: 10px;}
+
+/* Table */
+.cnt table th,
+.cnt table td {padding: 10px 20px;}
+
+/* Header
+------------------------------------------------------*/
+.header_phone {
+  font-size: 18px;
+}
+
+/* Menu
+------------------------------------------------------*/
+.menu_a {
+  font-size: 11px;
+}
+
+/* Bar
+------------------------------------------------------*/
+.bar p {
+  font-size: 10px;
+}
+  .bar a {
+    font-size: 10px;
+  }
+
+/* Footer
+------------------------------------------------------*/
+.footer_copyright {
+  font-size: 13px;
+}
+.footer_text {
+  font-size: 11px;
+}
+
+/* Car navs
+------------------------------------------------------*/
+.car-nav {
+  font-size: 13px;
+}
+
+/* Booking info
+------------------------------------------------------*/
+.booking-info {
+  font-size: 15px;
+}
+  .booking-info span {
+    font-size: 11px;
+  }

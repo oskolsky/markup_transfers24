@@ -1,0 +1,109 @@
+/* RESPONSIVE
+---------------------------------------------------------------------------------------------------- */
+.hidden-desktop,
+.visible-phone,
+.visible-tablet {display: none !important;}
+.visible-desktop {display: inherit !important;}
+
+/* PROPERTIES
+---------------------------------------------------------------------------------------------------- */
+/* Box-sizing */
+.border-box {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Display */
+.d-n  {display: none;}
+.d-i  {display: inline;}
+.d-b  {display: block;}
+.d-ib {display: inline-block;}
+
+/* Float */
+.f-l {float: left;}
+.f-r {float: right;}
+
+/* Overflow */
+.o-h  {overflow: hidden;}
+.o-h_x {
+  -ms-overflow-x: hidden;
+      overflow-x: hidden;
+}
+.o-h_y {
+  -ms-overflow-y: hidden;
+      overflow-y: hidden;
+}
+
+/* Position */
+.p-a {position: absolute;}
+.p-r {position: relative; z-index: 1000;}
+.p-f {position: fixed;}
+.p-s {position: static;}
+
+/* Visibility */
+.v-h {visibility: hidden;}
+.v-v {visibility: visible;}
+
+/* White-space */
+.nowrap {white-space: nowrap;}
+
+/* Word-wrap */
+.break-word {word-wrap: break-word;}
+
+/* HELPERS
+---------------------------------------------------------------------------------------------------- */
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+}
+.clearfix:after {clear: both;}
+
+/* Etc */
+.block-c {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+/* IOSSLIDER
+---------------------------------------------------------------------------------------------------- */
+.slider {
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.slider > .slides {
+  width: 100%;
+  height: 100%;
+}
+.slider > .slides > .slide {
+  float: left;
+  -webkit-backface-visibility: visible !important; /* For sharp font rendering inside slide */
+}
+
+/* JQUERY UI
+---------------------------------------------------------------------------------------------------- */
+/* Autocomplete */
+.ui-helper-hidden-accessible {display: none;}      
+
+/* Dialog */
+.ui-dialog-titlebar,
+.ui-dialog-content {
+  position: absolute !important;
+  min-height: 0 !important;
+}
+
+/* Overlay */
+.ui-widget-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
